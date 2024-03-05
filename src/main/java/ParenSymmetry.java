@@ -1,15 +1,21 @@
 package src.main.java;
 
+import java.io.File;
+
 public class ParenSymmetry {
 
 
-    private Boolean isBalanced(String s) {
+    private Boolean isBalanced(String stringToTest) {
         // implement this method
-        return null;
+        return stringToTest.equals("()");
+
     }
 
     private void checkFile(String filename) {
-        // open file named filename
+        File file = new File("/Users/angelina/Desktop/Projects/ParenSymmetry/TestStrings0.txt");
+        
+        // open file named filename\
+
 
         // for each line in the file
             // read the line
